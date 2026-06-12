@@ -1,6 +1,4 @@
-"""Python If-Else
-
-Task
+"""
 Given an integer, , perform the following conditional actions:
 
 If  is odd, print Weird
@@ -35,6 +33,7 @@ Sample Output 1
 
 Not Weird"""
 
+
 #!/bin/python3
 
 import math
@@ -55,4 +54,3 @@ if __name__ == '__main__':
         print("Weird")
     else:
         print("Not Weird")
-

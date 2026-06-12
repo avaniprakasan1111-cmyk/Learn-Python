@@ -1,4 +1,4 @@
-Write a function hackerrank Solution
+"""Write a function
 
 An extra day is added to the calendar almost every four years as February 29, and the day is called a leap day. It corrects the calendar for the fact that our planet takes approximately 365.25 days to orbit the sun. A leap year contains a leap day.
 
@@ -34,10 +34,8 @@ Sample Output 0
 False
 Explanation 0
 
-1990 is not a multiple of 4 hence it's not a leap year.
+1990 is not a multiple of 4 hence it's not a leap year."""
 
-
-Solution:
 
 def is_leap(year):
     leap = False
@@ -49,3 +47,11 @@ def is_leap(year):
             leap="True"
     else:
         leap="False"
+    
+    
+    
+    
+    
+    return leap
+
+year = int(input())

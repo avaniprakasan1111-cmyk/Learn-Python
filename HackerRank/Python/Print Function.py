@@ -36,6 +36,7 @@ if __name__ == '__main__':
     n = int(input())
     k=1
     for i in range(2,n+1):
-        p = str(i)
-        k=str(k)+p
+        k = str(k)+ str(i)
+       
     print(k)
+        

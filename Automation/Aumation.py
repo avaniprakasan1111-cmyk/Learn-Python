@@ -1,8 +1,10 @@
+"Automation code to send Messages on Whatsup"
+
 import pywhatkit
 import pyautogui
 import time
 
-phone_number = "+918157834729"
+phone_number = "Enter Phone number with country code"
 message = "Hello"
 
 pywhatkit.sendwhatmsg_instantly(
